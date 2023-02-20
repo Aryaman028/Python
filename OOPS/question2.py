@@ -30,7 +30,7 @@ def main():
     c = input("Input car name for details as given in the list")
     data = Car()
     data.get_details(c)
-    print("Your car data is  here-->")
+    print("Your car data is here-->")
     data.show_details()
     
 main()
