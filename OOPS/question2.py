@@ -5,7 +5,7 @@ class Car:
         self.car_name = car
         if car == "Prius":
             self.car_price = "30LAKH"
-            self.yearofmake = 2014
+            self.yearofmake = 2014 
             
         if car == "Camry":
             self.car_price = "50lakh"
@@ -30,7 +30,7 @@ def main():
     c = input("Input car name for details as given in the list")
     data = Car()
     data.get_details(c)
-    print("Your car data is here-->")
+    print("Your car data is  here-->")
     data.show_details()
     
 main()
